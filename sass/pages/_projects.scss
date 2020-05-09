@@ -26,6 +26,7 @@
         height: 300px;
         margin: 25px;
         box-shadow: 0px 2px 10px $main-color;
+        @include common-background;
         @media (max-width: 994px) {
             min-width: 350px;
         }
@@ -76,9 +77,7 @@
             font-size: 1.2rem;
             padding: 5px;
         }
-        &--color {
-            @include common-background;
-        }
+        
     }
 }
 

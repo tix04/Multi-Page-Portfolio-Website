@@ -1,18 +1,8 @@
 
 
 %home-image {
-    width: 45%;
-    height: auto;
-    float: left;
-    margin-left: 30%;
     opacity: .5;
-    @media (max-width: 700px) {
-        width: 50%;
-        margin-left: 25%;
-    }
-    @media (max-width: 600px) {
-        width: 55%;
-    }
+    width: 450px;
 }
 
 %main--bg {
@@ -54,21 +44,10 @@
 }
 
 %profession {
-    margin-top: 33%;
-    margin-bottom: 3%;
     width: 100%;
     padding: 20px;
     text-shadow: 1px 1px 20px #73652d;
     text-align: center;
-    @media (min-width: 1430px) {
-        width: 97%;
-    }
-    @media (max-width: 500px) {
-        width: 95%;
-    }
-    @media (max-width: 375px) {
-        width: 90%;
-    }
 }
 
 %headingBase {
