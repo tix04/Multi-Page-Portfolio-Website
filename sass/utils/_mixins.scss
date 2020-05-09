@@ -1,0 +1,13 @@
+@mixin bullet-background {
+    background-color: $main-color;
+}
+
+@mixin detail-headings {
+    margin-top: 0;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+
+@mixin common-background {
+    background-color: $main-color;
+}

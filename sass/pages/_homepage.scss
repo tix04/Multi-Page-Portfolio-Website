@@ -1,0 +1,38 @@
+.home {
+    overflow: auto;
+    background-color: #040303;
+    img {
+        @extend %home-image;
+        animation: image 2s ease-in;
+    }
+    /*&--bg {
+        @extend %main--bg;
+    }*/
+    @keyframes image{
+        0% {opacity: 0;}
+        25% {opacity: .1;}
+        50% {opacity: .2;}
+        75% {opacity: .3;}
+        100% {opacity: .4;}
+    }
+    .profession {
+        @extend %profession;
+        animation: profession 2s cubic-bezier(0.71,-0.13, 0.24, 1.21);
+        h2 {
+            @extend %job__title;
+            @extend %name;
+        }
+        h3 {
+            @extend %job__title;
+            @extend %jobTitle;
+            margin-left: 3%;
+        }
+        
+    }
+    
+    @keyframes profession {
+        0% {opacity: 0; transform: translateY(100px);}
+        100% {opacity: 1; transform: translateY(0);}
+    }
+}
+

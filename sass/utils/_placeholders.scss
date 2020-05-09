@@ -1,0 +1,155 @@
+
+
+%home-image {
+    width: 45%;
+    height: auto;
+    float: left;
+    margin-left: 30%;
+    opacity: .5;
+    @media (max-width: 700px) {
+        width: 50%;
+        margin-left: 25%;
+    }
+    @media (max-width: 600px) {
+        width: 55%;
+    }
+}
+
+%main--bg {
+    width: 100%;
+    position: absolute;
+    background-color: #040303;
+    height: 718px;
+    z-index: -1;
+}
+
+%job__title {
+    color: $main-color;
+}
+
+%name{
+    font-size: 5rem;
+    @media (max-width: 850px) {
+        font-size: 4rem;
+    }
+    @media (max-width: 600px) {
+        font-size: 3rem;
+    }
+    @media (max-width: 500px) {
+        font-size: 2.5rem;
+    }
+    @media (max-width: 375px) {
+        font-size: 2.2rem;
+    }
+}
+
+%jobTitle {
+    font-size: 2.5rem;
+    @media (max-width: 700px) {
+        font-size: 2rem;
+    }
+    @media (max-width: 500px) {
+        font-size: 1.5rem;
+    }
+}
+
+%profession {
+    margin-top: 33%;
+    margin-bottom: 3%;
+    width: 100%;
+    padding: 20px;
+    text-shadow: 1px 1px 20px #73652d;
+    text-align: center;
+    @media (min-width: 1430px) {
+        width: 97%;
+    }
+    @media (max-width: 500px) {
+        width: 95%;
+    }
+    @media (max-width: 375px) {
+        width: 90%;
+    }
+}
+
+%headingBase {
+    text-transform: uppercase;
+}
+
+%contact-fg {
+    width: 100%;
+    background: #000 url("/img/contact\ image.jpg");
+    background-repeat: no-repeat;
+    height: 740px;
+    opacity: .3;
+}
+
+%form {
+    width: 50%;
+    height: 550px;
+    padding: 30px;;
+    margin: 30px auto 90px 30%;
+    border: 5px solid $main-color;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #4d4d4d;
+    background-color: white;
+    box-shadow: 0px 5px 10px #fff, 0px -5px 10px #fff;
+}
+
+%textInput {
+        width: 80%;
+        border-radius: 25px;
+        height: 40px;
+        background: #e6e6e6;
+        font-size: 1.2rem;
+        color: #a6a6a6;
+        padding-left: 20px;
+}
+
+%about-contactInfo {
+    margin-top: 25px;
+    padding-left: 30px;
+}
+
+%section-fontSize {
+    font-size: 14px;
+}
+
+%reference-style {
+    font-weight: normal;
+    margin: 10px 0;
+}
+
+%link {
+    display:inline-block;
+    text-decoration: none;
+    font-size: 1.4rem;
+    margin: 0 25px;
+    color: white;
+}
+
+%active-page {
+    padding: 13px;
+    color: #a1a1a1;
+    @media (max-width: 600px) {
+        padding: 2px;
+        border: none;
+    }
+}
+
+%page__title {
+    float: left;
+    margin-left: 10%;
+    font-size: 4rem;
+    margin-top: .5%;
+    margin-bottom: 0;
+    color: white;
+    text-shadow: 4px 4px #555;
+    @media (max-width: 990px) {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        font-size: 3rem;
+    }
+}

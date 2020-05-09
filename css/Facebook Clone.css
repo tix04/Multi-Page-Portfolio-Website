@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Segoe UI';
+    background-color: #edf0f5;
+}
+
+main {
+    clear: both;
+}
+
+header {
+    background-color: #3b5998;
+    color: white;
+    height: 85px;
+}
+
+.header-container, .main-container, .footer-container ,.footer-top, .footer-bottom {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header-container, .main-container, .sign-up-container {
+    overflow: auto;
+}
+
+.left {
+    width: 55%;
+    float: left;
+}
+
+.facebook-logo {
+    font-weight: bold;
+    font-size: 2.5em;
+    margin-top: 25px;
+    color: white;
+}
+
+.right {
+    width: 40%;
+    float: right;
+}
+
+header div.right {
+    margin-top: 25px;
+}
+
+header label {
+    float: left;
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #eee;
+}
+
+header input {
+    width:135px;
+}
+
+header input {
+    margin-top: 3px;
+}
+
+label span {
+    font-weight: normal;
+    color: #adb9d3;
+}
+
+header button {
+    position: relative;
+    top: 16px;
+    display: inline-block;
+    background-color: #2e5cbe;
+    color: white;
+    border: 1px solid #555;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 12px;
+}
+
+main {
+    margin-top: 30px;
+}
+
+.bold-text {
+    font-weight: 600;
+    
+}
+
+p.bold-text {
+    font-size: 1.7em;
+    line-height: 40px;
+    font-family: Helvetica, sans-serif;
+    width: 80%;
+    color: #333;
+}
+
+main .left p {
+    margin: 30px 0;
+}
+
+main .left span.icons {
+    vertical-align: middle;
+    margin-right: 20px;
+    color: #adb9d3;
+}
+
+main .left .image-text {
+    font-size: 14px;
+    color: #777;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-weight: 600;
+    font-size: 2.5em;
+    color: #333;
+}
+
+legend+p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+fieldset input {
+    padding: 8px;
+    float: left;
+    margin: 5px;
+    color: #777;
+}
+fieldset input[type="text"], fieldset input[type="password"], input[type="email"] {
+    font-size: 1.15em;
+    border: 1px solid #adb9d3;
+    border-radius: 5px;
+}
+
+fieldset input[type="text"] {
+    width: 172px;
+}
+
+fieldset input[type="password"], input[type="email"] {
+    width: 370px;
+}
+ 
+fieldset input[type="password"] {
+    margin-bottom: 20px;
+}
+
+.label-clear, .gender {
+    color: #aaa;
+    font-weight: bold;
+}
+
+.label-clear {
+    clear: both;
+}
+
+fieldset button {
+    border: transparent;
+    background-color: transparent;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.question1 {
+    margin-top: 15px;
+}
+
+fieldset input[type="radio"] {
+    float: none;
+
+}
+
+input[type="radio"]+span {
+    font-size: 1.15em;
+    color: #444;
+    margin-right: 15px;
+}
+
+p.terms, footer {
+    font-size: .7em;
+}
+
+p.terms {
+    width: 80%;
+}
+
+a {
+    text-decoration: none;
+    color: #3b5998;
+}
+
+ fieldset .sign-up {
+    width: 37%;
+    padding-left: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form+p {
+    border-top: 1px solid #adb9d3;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: .8em;
+    color: #666;
+}
+
+footer {
+    background-color: white;
+    padding: 10px;
+}
+
+.footer-container {
+    margin-top: 20px;
+}
+
+footer a {
+    margin-right: 12px;
+}
+
+footer img {
+    width: 28px;
+    height: 10px;
+}
+
+.footer-top {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #adb9d3;
+    margin-bottom: 5px;
+}
+
+.footer-bottom {
+    margin-bottom: 20px;
+}
+
+.copyright {
+    color: #555;
+    font-size: .8em;
+}
+
+.copyright img {
+    width: 8px;
+    height: 8px;
+    vertical-align: middle;
+}
+
