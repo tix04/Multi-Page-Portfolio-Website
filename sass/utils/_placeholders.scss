@@ -117,20 +117,14 @@
 }
 
 %active-page {
-    padding: 13px;
     color: #a1a1a1;
     @media (max-width: 600px) {
-        padding: 2px;
         border: none;
     }
 }
 
 %page__title {
-    float: left;
-    margin-left: 10%;
-    font-size: 4rem;
-    margin-top: .5%;
-    margin-bottom: 0;
+    font-size: 3rem;
     color: white;
     text-shadow: 4px 4px #555;
     @media (max-width: 990px) {
