@@ -18,6 +18,7 @@ body {
 .home img {
   opacity: .5;
   width: 50%;
+  height: 75vh;
 }
 
 .home .profession h2, .home .profession h3 {
@@ -276,7 +277,6 @@ footer {
 }
 
 .home img {
-  max-height: 460px;
   -webkit-animation: image 2s ease-in;
           animation: image 2s ease-in;
 }
