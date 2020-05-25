@@ -30,7 +30,7 @@
             box-shadow: none;
             width: 85%;
         }
-        h2 {
+        &__title {
             font-size: 2.5rem;
             margin-bottom: 10px;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -39,61 +39,59 @@
             padding: 5px;
             text-align: center;
         }
-        h3 {
+        &__header {
             font-size: 1.8rem;
             background-image: linear-gradient(to right, #4ac1b0, #025b53);
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
-    }
-    .socialNetwork {
-        margin-top: 65px;
-        margin-bottom: 15px;
-        text-align: center;
-        ul li {
-            display: inline-block;
-            margin: 5px;
-            transition: all 300ms ease;
-
-            &:hover {
-                opacity: .6;
+        &__description {
+            margin: 15px;
+            text-align: justify;
+            font-size: 17px;
+            max-width: 450px;
+            @media (max-width: 950px) {
+                margin: 30px auto;
+                max-width: none;
             }
-
-            i {
+            @media (max-width: 450px) {
+                font-size: 16px;
+            }
+        }
+        &__socialmedia-icons {
+            margin-top: 65px;
+            margin-bottom: 15px;
+            text-align: center;
+            ul li {
+                display: inline-block;
+                margin: 5px;
+                transition: all 300ms ease;
+    
+                &:hover {
+                    opacity: .6;
+                }
+    
+                i {
+                    color: $main-color;
+                }
+            }
+        }
+        &__more-info {
+            margin: 15px;
+            text-align: justify;
+            clear: both;
+            text-align: center;
+            a {
+                text-decoration: none;
+                font-weight: bold;
                 color: $main-color;
+                text-transform: uppercase;
             }
-        }
-    }
-    img.icons {
-            width: 30px;
-            display: inline-block;
-    }
-    
-    .description {
-        margin: 15px;
-        text-align: justify;
-        font-size: 17px;
-        max-width: 450px;
-        @media (max-width: 950px) {
-            margin: 30px auto;
-            max-width: none;
-            
-        }
-        @media (max-width: 450px) {
-            font-size: 16px;
-        }
-    }
-    
-    .more-info {
-        margin: 15px;
-        text-align: justify;
-        clear: both;
-        text-align: center;
-        a {
-            text-decoration: none;
-            font-weight: bold;
-            color: $main-color;
-            text-transform: uppercase;
         }
     }
 }
+    
+    
+    
+    
+    
 

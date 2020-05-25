@@ -397,7 +397,7 @@ footer {
   }
 }
 
-.about .card h2 {
+.about .card__title {
   font-size: 2.5rem;
   margin-bottom: 10px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -407,40 +407,14 @@ footer {
   text-align: center;
 }
 
-.about .card h3 {
+.about .card__header {
   font-size: 1.8rem;
   background-image: -webkit-gradient(linear, left top, right top, from(#4ac1b0), to(#025b53));
   background-image: linear-gradient(to right, #4ac1b0, #025b53);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.about .socialNetwork {
-  margin-top: 65px;
-  margin-bottom: 15px;
-  text-align: center;
-}
-
-.about .socialNetwork ul li {
-  display: inline-block;
-  margin: 5px;
-  -webkit-transition: all 300ms ease;
-  transition: all 300ms ease;
-}
-
-.about .socialNetwork ul li:hover {
-  opacity: .6;
-}
-
-.about .socialNetwork ul li i {
-  color: #079992;
-}
-
-.about img.icons {
-  width: 30px;
-  display: inline-block;
-}
-
-.about .description {
+.about .card__description {
   margin: 15px;
   text-align: justify;
   font-size: 17px;
@@ -448,26 +422,47 @@ footer {
 }
 
 @media (max-width: 950px) {
-  .about .description {
+  .about .card__description {
     margin: 30px auto;
     max-width: none;
   }
 }
 
 @media (max-width: 450px) {
-  .about .description {
+  .about .card__description {
     font-size: 16px;
   }
 }
 
-.about .more-info {
+.about .card__socialmedia-icons {
+  margin-top: 65px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.about .card__socialmedia-icons ul li {
+  display: inline-block;
+  margin: 5px;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.about .card__socialmedia-icons ul li:hover {
+  opacity: .6;
+}
+
+.about .card__socialmedia-icons ul li i {
+  color: #079992;
+}
+
+.about .card__more-info {
   margin: 15px;
   text-align: justify;
   clear: both;
   text-align: center;
 }
 
-.about .more-info a {
+.about .card__more-info a {
   text-decoration: none;
   font-weight: bold;
   color: #079992;
